@@ -3,6 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.flixster1">
 
+    <queries>
+        <intent>
+            <action
+
+    android:name="com.google.android.youtube.api.service.START"/>
+        </intent>
+    </queries>
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"

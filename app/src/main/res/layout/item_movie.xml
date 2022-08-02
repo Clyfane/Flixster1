@@ -18,17 +18,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="125dp"
-        android:layout_marginTop="-5dp"
+        android:layout_marginTop="0dp"
         android:text="Thor: Love and Thunder"
         android:textSize="24sp" />
 
     <TextView
-        android:id="@+id/tvOverview"
-        android:layout_width="wrap_content"
+        android:id="@+id/overview"
+        android:layout_width="285dp"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/tvTitle"
-        android:layout_marginLeft="125dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginBottom="-132dp"
-        android:text="After his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods, Thor enlists the help of King Valkyrie, Korg, and ex-girlfriend Jane Foster, who now inexplicably wields Mjolnir as the Mighty Thor. Together they embark upon a harrowing cosmic adventure to uncover the mystery of the God Butcher’s vengeance and stop him before it’s too late" />
+        android:layout_below="@+id/tvTitle"
+        android:layout_alignEnd="@+id/ivPoster"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="-287dp"
+        android:text="After his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods, Thor enlists the help of King Valkyrie, Korg, and ex-girlfriend Jane Foster, who now inexplicably wields Mjolnir as the Mighty Thor. Together they embark upon a harrowing cosmic adventure to uncover the mystery of the God Butcher’s vengeance and stop him before it’s too late." />
+
 </RelativeLayout>
