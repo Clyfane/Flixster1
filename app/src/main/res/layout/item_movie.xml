@@ -23,7 +23,7 @@
         android:textSize="24sp" />
 
     <TextView
-        android:id="@+id/overview"
+        android:id="@+id/tvOverview"
         android:layout_width="285dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvTitle"
